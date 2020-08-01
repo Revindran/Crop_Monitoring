@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".User.UserDashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="Crop Monitoring"
+            android:textSize="30dp"
+            app:fontFamily="@font/baloo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="25dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/my_farm"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/my_farm_view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="My Field View"
+        android:textSize="16dp"
+        app:fontFamily="sans-serif-black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@color/card1"
+                android:elevation="10dp">
+
+
+                <ImageView
+                    android:id="@+id/humid"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/humidity" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Humidity"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@color/card3"
+                android:elevation="10dp">
+
+
+                <ImageView
+                    android:id="@+id/temp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/temp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Temprature"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@color/card2"
+                android:elevation="10dp">
+
+
+                <ImageView
+                    android:id="@+id/moisture"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/moisture_icon" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Moisture"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@color/card4"
+                android:elevation="10dp">
+
+
+                <ImageView
+                    android:id="@+id/increase"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/yield" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Increase Yield"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="Latest News"
+        android:textSize="30dp"
+        app:fontFamily="@font/baloo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/onenews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/newstwo" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/threenews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fournews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fivenews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sixnews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sevennews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/eightnews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ninenews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tennews" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/eleven" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/twelve" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/thirteen" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

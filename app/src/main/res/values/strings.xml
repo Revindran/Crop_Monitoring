@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Crop Monitoring</string>
+    <string name="slogan_name">Monitor the Future</string>
+    <string name="developers">RAR Developers</string>
+
+    <!-- strings for On Boarding Screen-->
+
+    <!-- Title-->
+
+    <string name="first_title">Monitoring the Crops</string>
+    <string name="second_title">Proper Planting</string>
+    <string name="third_title">High Output</string>
+
+    <!--Descriptions-->
+
+    <string name="first_desc">We Use ML to monitor the crops and their growth levels.</string>
+    <string name="second_desc">Guidelines are provided for proper plantation and Maintaining the crops.</string>
+    <string name="third_desc">An high output can be obtained from this modern method of agriculture using this application</string>
+
+    <!--Buttons-->
+
+    <string name="next_btn">Next</string>
+    <string name="LetsGo_btn">Start Monitoring</string>
+
+</resources>
